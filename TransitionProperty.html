@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 5px solid black;
+
+            transition-property: width,height, background-color, border;
+            transition-timing-function: ease-out;
+            transition-duration: 20s;
+        }
+        .box1:hover{
+            width: 500px;
+            height: 500px;
+            background: yellow;
+            border: 5px solid rgb(255, 0, 0);
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(94, 202, 27);
+            border: 5px solid black;
+
+            transition-property: width,height;
+            transition-duration: 20s;
+        }
+        .box2:hover{
+            width: 500px;
+            height: 500px;
+            background: rgb(255, 0, 0);
+            border: 5px solid rgb(111, 255, 0);
+        }
+        body{
+            display: flex;
+            gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="box">
+            <img src="https://www.tallahassee.com/gcdn/presto/2018/08/14/PTAL/6e4fff76-595d-4069-9112-cfe15dbfaa43-IMG_Stadium.jpeg?width=660&height=319&fit=crop&format=pjpg&auto=webp" alt="">
+        </div>
+    </div> -->
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>
