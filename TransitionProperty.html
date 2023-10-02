@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            width: 100%;
+            background-color: #ade780;
+        }
         .box1{
             width: 200px;
             height: 200px;
@@ -13,8 +21,8 @@
 
             transition-property: width,height;
             transition-timing-function: ease-out;
-            transition-duration: 20s;
-            /* transition: width 20s ease-in; */
+            transition-duration: 2s;
+            /* transition: width 5s; */
         }
         .box1:hover{
             width: 500px;
@@ -22,21 +30,21 @@
             background: yellow;
             border: 5px solid rgb(255, 0, 0);
         }
-        /* .box2{
+        .box2{
             width: 200px;
             height: 200px;
             background-color: rgb(94, 202, 27);
             border: 5px solid black;
 
             transition-property: width,height;
-            transition-duration: 20s;
+            transition-duration: 2s;
         }
         .box2:hover{
             width: 500px;
             height: 500px;
             background: rgb(255, 0, 0);
             border: 5px solid rgb(111, 255, 0);
-        } */
+        }
         body{
             display: flex;
             gap: 50px;
@@ -45,6 +53,6 @@
 </head>
 <body>
     <div class="box1"></div>
-    <!-- <div class="box2"></div> -->
+    <div class="box2"></div>
 </body>
 </html>
